@@ -3,29 +3,29 @@ document.addEventListener("DOMContentLoaded", function () {
     const comingSoonContainer = document.getElementById("coming-soon-grid-container");
 
     const nowShowingMovies = [
-        { img: "captain.jpg", title: "Captain America: Brave New World" },
-        { img: "superman.png", title: "Superman" },
-        { img: "jw.png", title: "Jurassic World: Rebirth" },
-        { img: "dragon.png", title: "How to Train Your Dragon" },
-        { img: "4.png", title: "The Fantastic Four: First Steps" },
-        { img: "untold.jpeg", title: "Untold" },
-        { img: "balota.png", title: "Balota" },
-        { img: "care.png", title: "The Caretakers" },
-        { img: "hla.png", title: "Hello, Love, Again" },
-        { img: "disapear.png", title: "My Love Will Make You Disappear" }
+        { img: "captain.jpg", title: "Deathpool and wolverine" },
+        { img: "superman.png", title: "Inside Out 2" },
+        { img: "jw.png", title: "The Wild Robot" },
+        { img: "dragon.png", title: "Beetlejuice Beetlejuice" },
+        { img: "4.png", title: "Mufasa: The Lion King" },
+        { img: "untold.jpeg", title: "Venom: The Last Dance" },
+        { img: "balota.png", title: "Kraven the Hunter" },
+        { img: "care.png", title: "Afterburn" },
+        { img: "hla.png", title: "Minamahal" },
+        { img: "disapear.png", title: "One Battle After Another" }
     ];
 
     const comingSoonMovies = [
-        { img: "coming1.png", title: "Love Across Time" },
-        { img: "coming2.png", title: "Die In Your Eyes" },
-        { img: "coming3.png", title: "Chasing Mr. Billionaire" },
+        { img: "coming1.png", title: "a Conjuring: Last Rites" },
+        { img: "coming2.png", title: "Black Bag" },
+        { img: "coming3.png", title: "Nouvelle Vague" },
         { img: "coming4.png", title: "Ball Night" },
-        { img: "coming5.png", title: "Beyond The Horizon" },
+        { img: "coming5.png", title: "The Long Walk" },
         { img: "coming6.png", title: "Friendship Of 3 Crazy Girls" },
-        { img: "coming7.png", title: "Taming Waves" },
-        { img: "coming8.png", title: "Shades Of Life" },
-        { img: "coming9.png", title: "Mayor's Paragon" },
-        { img: "coming10.png", title: "Mistreated Wife" }
+        { img: "coming7.png", title: "Anaconda" },
+        { img: "coming8.png", title: "Avatar: Fire and Ash" },
+        { img: "coming9.png", title: "Manila’s Finest" },
+        { img: "coming10.png", title: "Call Me Mother" }
     ];
 
     function generateMovieCards(container, movies, isNowShowing) {
